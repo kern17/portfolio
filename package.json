@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio",
+  "author": "Patrick Kern",
+  "version": "1.0.1",
+  "description": "Simple react portfolio app.",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "nginx": "docker rm -f react-dist && echo docker run --name react-dist -p 8080:80  -v /$(pwd)/dist:/usr/share/nginx/html -d nginx | bash",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "husky": "^9.0.11",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

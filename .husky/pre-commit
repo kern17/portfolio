@@ -1,0 +1,4 @@
+# automatically version bump package.json
+npm version --no-git-tag-version patch
+git add ./package.json
+git add ./package-lock.json
