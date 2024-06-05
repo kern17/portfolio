@@ -6,20 +6,26 @@
       "DOM",
       "DOM.Iterable"
     ],
-    "module": "ESNext",
     "skipLibCheck": true,
     // "esModuleInterop": true,
     
     /* Bundler mode */
-    "outDir": "dist",
-    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "sourceMap": true,
     
     /* Linting */
-    "strict": true, 
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src",

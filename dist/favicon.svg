@@ -23,31 +23,68 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="88.565124"
-     inkscape:cy="129.22376"
+     inkscape:zoom="3.959798"
+     inkscape:cx="93.186572"
+     inkscape:cy="98.86868"
      inkscape:window-width="1443"
      inkscape:window-height="1101"
      inkscape:window-x="353"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer2"
+     showguides="false" />
   <defs
-     id="defs1" />
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 90 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="180 : 90 : 1"
+       inkscape:persp3d-origin="90 : 60 : 1"
+       id="perspective7" />
+  </defs>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2">
+    <path
+       sodipodi:type="star"
+       style="fill:#000080;fill-opacity:1;stroke:#ffff00;stroke-opacity:0"
+       id="path4"
+       inkscape:flatsided="false"
+       sodipodi:sides="4"
+       sodipodi:cx="58.588848"
+       sodipodi:cy="38.638336"
+       sodipodi:r1="63.239502"
+       sodipodi:r2="63.239502"
+       sodipodi:arg1="0.78539816"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 103.30593,83.355417 58.58885,101.87784 13.871768,83.355417 -4.6506538,38.638338 13.871767,-6.0787443 58.588846,-24.601166 103.30593,-6.0787446 121.82835,38.638334 Z"
+       transform="translate(34.597725,54.548237)" />
     <text
        xml:space="preserve"
        style="fill:#483e37;fill-opacity:0;stroke:#2b0000"
-       x="24.494305"
-       y="126.23962"
+       x="37.373749"
+       y="126.49216"
        id="text1"><tspan
          id="tspan1"
-         x="24.494305"
-         y="126.23962"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0000ff;fill-opacity:1;stroke:#ffff00;stroke-opacity:0"
-         sodipodi:role="line">PK</tspan></text>
+         x="37.373749"
+         y="126.49216"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#ffff00;stroke-opacity:0"
+         sodipodi:role="line">P</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:96.3352px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#ed0000;stroke:#ffff00;stroke-width:1.00349;stroke-opacity:0"
+       x="-146.81165"
+       y="127.98177"
+       id="text2"
+       transform="scale(-1.0035424,0.99647012)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="-146.81165"
+         y="127.98177"
+         style="fill:#ffffff;stroke-width:1.00349">K</tspan></text>
   </g>
 </svg>

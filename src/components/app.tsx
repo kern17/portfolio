@@ -1,28 +1,19 @@
+import { useState } from "react";
+import { FC } from 'react';
+import { ProfileHeader } from "./profile-header";
 
+const App: FC = (): React.ReactNode  => {
+  const [count, setCount] = useState(0);
 
-// const MyComponent: React.FC = (): React.ReactNode => {
-//   return <div>This is fine</div>;
-// };
-// /*
-// function App() {
-//   const [count, setCount] = useState(0)
+  return (
+    <div>
+      <ProfileHeader/>
+       <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+      <div>TODO project list</div>
+    </div>
+  );
+};
 
-//   return (
-//     <>
-//       <h1>Vite + React</h1>
-//       {/* <div className="card">
-//         <button onClick={() => setCount((count) => count + 1)}>
-//           count is {count}
-//         </button>
-//         <p>
-//           Edit <code>src/App.tsx</code> and save to test HMR
-//         </p>
-//       </div>
-//       <p className="read-the-docs">
-//         Click on the Vite and React logos to learn more
-//       </p> */}
-//     </>
-//   )
-// }//*/
-
-// export default App
+export default App;
