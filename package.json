@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "author": "Patrick Kern",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple react portfolio app.",
   "scripts": {
     "start": "vite",
