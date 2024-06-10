@@ -6,13 +6,13 @@ const App: FC = (): React.ReactNode  => {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <main>
       <ProfileHeader/>
        <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
       <div>TODO project list</div>
-    </div>
+    </main>
   );
 };
 

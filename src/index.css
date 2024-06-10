@@ -1,9 +1,8 @@
 body {
-  background-color: aqua;
-  color: yellow;
+  background-color:  #f2f2f2 !important;
 }
-div{
-  background-color: bisque;
-  /* color: rgb(147, 27, 27); */
 
+#profileImg{
+  width:"100%";
+  max-height:150px;
 }
